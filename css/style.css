@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+    background-color: #f5f5f5
+}
+.editingpart{
+    margin-left: 5%;
+    margin-right: 10%;
+    width: 40%;
+    float: left
+}
+.editingpart .adding{
+    border: 2px solid green;
+    padding-left: 3%;
+    padding-bottom:30px;
+    margin-bottom: 30px
+}
+.editingpart input{
+    padding-left: 7px
+}
+.editingpart .adding input,.editingpart .subtracting input:last-of-type{
+    display: block;
+    margin-bottom: 20px
+}
+.editingpart .subtracting{
+    border: 2px solid red;
+    padding-left: 3%;
+    padding-bottom:30px;
+}
+.adding button{
+    border: 2px solid green;
+    color: green;
+    border-radius: 5px
+}
+.adding button:hover{
+    color: white;
+    background-color: green;
+    border: 2px solid green
+}
+.subtracting button{
+    border: 2px solid red;
+    color: red;
+    border-radius: 5px;
+}
+
+.subtracting button:hover{
+    color: white;
+    background-color: red;
+    border: 2px solid red
+}
+
+.dash{
+    width: 40%;
+    margin-left: 0;
+    margin-right: 5%;
+    float: right;
+    padding-top: 50px;
+}
+.dash .analyze{
+    width: 100%;
+    display: inline-block
+}
+.dash .bdgt ,.dash .expns,.dash .balance{
+    float: left;
+    width: 30%
+}
+
+.dash .balance{
+    display: block
+}
+.dash i{
+    font-size: 1.9em
+}
+.dash .bdgt i{
+    color: green
+}
+.dash .expns i{
+    color: red
+}
+.dash .table h4{
+    float: left;
+    width: 30%
+}
+.dash .table .items{
+    width: 100%;
+    display: inline-block;
+    margin-top: 12px;
+}
+.dash .item{
+    margin-top: .8em
+}
+.dash .item h5{
+    margin-bottom: 0;
+    margin-top: 0;
+    float: left;
+    width: 30%
+}
+.item i{
+    font-size: .9em;
+    cursor: pointer
+}
+.item i:first-of-type{
+    color: blue;
+    margin-right: 3%
+}
+.item i:last-of-type{
+    color: red
+}
